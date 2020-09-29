@@ -1,4 +1,5 @@
 import React from "react";
+import Favicon from "react-favicon";
 import { BrowserRouter, Route } from "react-router-dom";
 import useInput from "./Hooks/useInput";
 import Hello from "./Pages/Hello";
@@ -8,9 +9,10 @@ const App = () => {
   const [name, onChangeName] = useInput("");
   return (
     <>
+      <Favicon url="/public/favicon.ico?" />
+
       <header className="App_header">
         <title>HELLO JEEWON'S WORLD</title>
-        <link rel="shortcut icon" href="/public/favicon.ico" />
       </header>
 
       <BrowserRouter>
