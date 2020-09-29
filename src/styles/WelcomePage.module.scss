@@ -17,7 +17,7 @@
     height: fit-content;
 
     position: absolute;
-    top: 20%;
+    top: 15vh;
 
     .user_sub_title {
       color: rgb(255, 255, 255);
@@ -107,7 +107,7 @@
   }
 }
 
-@media screen and (min-width: 1001px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
   .start_container {
     .user_start_container {
       .user_sub_title {
@@ -122,18 +122,21 @@
       .main_explain {
         width: 85%;
       }
+
+      .user_enter_btn {
+        color: rgb(255, 255, 255);
+        margin-top: 40px;
+      }
     }
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .start_container {
     .user_start_container {
       width: 100%;
-      top: 15%;
 
       .user_sub_title {
-        min-width: 400px;
         width: 70%;
         font-size: 55px;
       }
@@ -162,18 +165,51 @@
       }
 
       .user_enter_btn {
+        color: rgb(255, 255, 255);
         font-size: 25px;
+        margin-top: 40px;
         width: 61%;
       }
     }
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .start_container {
     .user_start_container {
       .user_sub_title {
-        font-size: 48px;
+        font-size: 28px;
+      }
+
+      .user_title {
+        font-size: 23px;
+      }
+
+      .main_explain {
+        width: 70%;
+        font-size: 15px;
+      }
+
+      .user_question {
+        font-size: 23px;
+        margin: 10px 0 15px 0;
+      }
+
+      .user_input {
+        font-size: 20px;
+        width: 70%;
+        padding-bottom: 5px;
+      }
+
+      .user_input::placeholder {
+        font-size: 18px;
+      }
+
+      .user_enter_btn {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        width: 72%;
+        margin-top: 30px;
       }
     }
   }
