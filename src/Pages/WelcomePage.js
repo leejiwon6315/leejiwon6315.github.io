@@ -18,11 +18,6 @@ const WelcomePage = ({ name, onChangeName, handleSubmit }) => {
 
   return (
     <div className={styles.start_container}>
-      <header className="App_header">
-        <title>HELLO JEEWON'S WORLD</title>
-        <link rel="shortcut icon" href="/public/favicon.ico" />
-      </header>
-
       <div className={styles.user_start_container}>
         <h1 className={styles.user_sub_title}>WEB-FE WARNING</h1>
         <h1 className={styles.user_title}>HELLO JEEWON'S WORLD!</h1>
