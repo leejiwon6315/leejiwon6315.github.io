@@ -27,7 +27,7 @@ const WelcomePage = ({ name, onChangeName, handleSubmit }) => {
           There are no viruses or download files on this website, so be assured.{" "}
           Let's enter together now.
         </p>
-        <h3 className={styles.user_question}>What is your name?</h3>
+        <h3 className={styles.user_question}> What is your name?</h3>
         <input
           className={styles.user_input}
           type="text"

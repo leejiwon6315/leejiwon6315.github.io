@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
 
-    width: 60%;
+    width: 70vw;
     height: fit-content;
 
     position: absolute;
@@ -24,7 +24,7 @@
       font-size: 80px;
       font-weight: 600;
 
-      width: 76%;
+      width: 79%;
 
       padding: 20px 20px 10px 20px;
       margin-bottom: 30px;
@@ -103,6 +103,78 @@
     .user_enter_btn:hover {
       cursor: pointer;
       transform: scale(0.98);
+    }
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .start_container {
+    .user_start_container {
+      .user_sub_title {
+        width: 80%;
+        font-size: 68px;
+      }
+
+      .user_title {
+        font-size: 53px;
+      }
+
+      .main_explain {
+        width: 85%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .start_container {
+    .user_start_container {
+      width: 100%;
+      top: 15%;
+
+      .user_sub_title {
+        min-width: 400px;
+        width: 70%;
+        font-size: 55px;
+      }
+
+      .user_title {
+        font-size: 38px;
+      }
+
+      .main_explain {
+        width: 80%;
+        font-size: 17px;
+      }
+
+      .user_question {
+        font-size: 38px;
+        margin: 20px 0 20px 0;
+      }
+
+      .user_input {
+        font-size: 25px;
+        width: 60%;
+      }
+
+      .user_input::placeholder {
+        font-size: 23px;
+      }
+
+      .user_enter_btn {
+        font-size: 25px;
+        width: 61%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .start_container {
+    .user_start_container {
+      .user_sub_title {
+        font-size: 48px;
+      }
     }
   }
 }
