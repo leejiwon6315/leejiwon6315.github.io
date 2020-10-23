@@ -1,11 +1,17 @@
 import React from "react";
-import styles from "../styles/Home.module.scss";
+import { BrowserRouter, Route } from "react-router-dom";
+import Home from "./Home";
+import Comments from "./Comments";
+import Navigation from "../Navigation/Navigation";
 
 const Hello = ({ name }) => {
   return (
-    <div className={styles.hello_container}>
-      <h1>hello {name}!</h1>
-    </div>
+    <BrowserRouter>
+      <Navigation />
+
+      <Route path="/Home" render={() => <Home name={name} />} />
+      <Route path="/Comments" render={() => <Comments name={name} />} />
+    </BrowserRouter>
   );
 };
 
