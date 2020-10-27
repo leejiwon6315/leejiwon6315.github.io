@@ -1,4 +1,5 @@
 .profile_container {
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,36 +11,78 @@
     font-size: calc(30px + 2.5vw);
     font-weight: 800;
     position: absolute;
-    top: 26%;
+    top: 23%;
     left: 50%;
   }
 
   .profile_top_article {
+    width: 100vw;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-
-    width: 35%;
     padding-top: 5%;
 
+    .profile_top_leftPart,
+    .profile_top_rightPart {
+      width: 23vw;
+      font-size: 30px;
+      font-weight: 300;
+    }
+
     .profile_top_leftPart {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
     }
 
     .profile_img {
-      max-width: 500px;
-      width: 30vw;
-      min-width: 400px;
-    }
-
-    .profile_top_rightPart {
+      max-width: 450px;
+      min-width: 350px;
+      width: 27vw;
     }
   }
 
   .profile_bottom_article {
+    width: 370px;
+    position: relative;
+    top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
     .profile_header {
-      color: white;
       font-size: 30px;
+      font-weight: 400;
       text-align: center;
+    }
+
+    span {
+      padding-top: 22px;
+      font-size: 25px;
+      font-weight: 400;
+    }
+
+    .profile_main_article {
+      position: relative;
+      top: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      text-align: left;
+
+      ul li {
+        padding-bottom: 15px;
+        font-size: 22px;
+        font-weight: 300;
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
     }
   }
 }
