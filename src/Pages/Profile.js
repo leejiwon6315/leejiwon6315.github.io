@@ -54,14 +54,16 @@ const Profile = ({ name }) => {
               <li>24</li>
               <li>Web Front-end</li>
               <li>HTML, CSS, Javascript<br/>React js<br/>Photoshop, Illustrator, Figma</li>
-              <li>Seoul, Republic Of Korea</li>
+              <li>Seoul, Republic of Korea</li>
               <li>
                 2015.03 ~<br/>
-                Major in Global-Media, IT college of Soongsil University<br/>
+                Major in Global-Media, IT college of Soongsil<br/>
+                University<br/>
 
                 <br/>
                 2017.01 ~ 2018.10<br/>
-                Served in the Republic of Korea Special Assault Commando<br/>
+                Served in the Republic of Korea Special Assault<br/>
+                Commando<br/>
 
                 <br/>
                 2019.03 ~ 2020.01<br/>
