@@ -6,7 +6,7 @@ import Hello from "./Pages/Hello";
 import WelcomePage from "./Pages/WelcomePage";
 
 const App = () => {
-  const [name, onChangeName] = useInput("");
+  const [name, setName, onChangeName] = useInput("");
   return (
     <>
       <Favicon url="/public/favicon.ico?" />
@@ -19,7 +19,13 @@ const App = () => {
         <Route
           exact
           path="/"
-          render={() => <WelcomePage name={name} onChangeName={onChangeName} />}
+          render={() => (
+            <WelcomePage
+              name={name}
+              setName={setName}
+              onChangeName={onChangeName}
+            />
+          )}
         />
         <Route path="/HELLO" render={() => <Hello name={name} />} />
       </BrowserRouter>
