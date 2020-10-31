@@ -18,7 +18,7 @@ const Navigaion = ({ name }) => {
               Profile
             </Link>
             <Link to={`/HELLO/My_Works`} className={styles.nav_item}>
-              My Works
+              Works
             </Link>
             <Link to={`/HELLO/${name}'s_comments`} className={styles.nav_item}>
               Comments

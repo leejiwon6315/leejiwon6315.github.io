@@ -240,7 +240,7 @@
   .profile_title {
     position: absolute;
     top: 3%;
-    font-size: 70px;
+    font-size: calc(50px + 2vw);
     font-weight: 700;
   }
 
@@ -255,18 +255,22 @@
 
   .profile_top_leftPart,
   .profile_top_rightPart {
-    width: 20vw;
-    font-size: 20px;
+    width: 18vw;
+    font-size: 19px;
     font-weight: 300;
   }
 
   .profile_bottom_section {
-    width: 550px;
+    width: 460px;
 
     .profile_bottom_article {
       .profile_left_subtitle {
         padding-right: 20px;
       }
+    }
+
+    .profile_bottom_article ul li {
+      font-size: 14px;
     }
   }
 }
