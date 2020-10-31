@@ -39,8 +39,14 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1300px) and (max-width: 2069px) {
   .comments_list {
-    width: 52%;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 2070px) {
+  .comments_list {
+    width: 48%;
   }
 }
