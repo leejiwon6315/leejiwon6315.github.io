@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import styles from "../PageStyles/WelcomePage.module.scss";
+import styles from "./PageStyles/WelcomePage.module.scss";
 
 const WelcomePage = ({ name, setName, onChangeName }) => {
   const history = useHistory();

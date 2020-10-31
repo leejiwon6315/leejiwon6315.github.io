@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../PageStyles/CommentsPage.module.scss";
+import styles from "./PageStyles/CommentsPage.module.scss";
 import { dataBase, nextId, setNextId } from "../data/dataBase";
 import useInput from "../Hooks/useInput";
 import CommentList from "../Comment/CommentList";
@@ -29,7 +29,9 @@ const Comments = ({ name }) => {
 
   return (
     <div className={styles.comments_container}>
-      <CommentList name={name} list={data} />
+      <div className={styles.comments_list}>
+        <CommentList name={name} list={data} />
+      </div>
       <InputBox
         name={name}
         comment={comment}

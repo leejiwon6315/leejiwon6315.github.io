@@ -1,0 +1,46 @@
+.input_box {
+  display: flex;
+  flex-direction: row;
+
+  .input_user_name {
+    height: fit-content;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-top: 12px;
+  }
+
+  input {
+    color: white;
+    min-width: 300px;
+    width: 40vw;
+    padding: 10px 10px 10px 5px;
+    outline: none;
+    font-size: 17px;
+    border: 1px solid #f3f3f3;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    background-color: unset;
+  }
+
+  .input_box_button {
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 10px;
+    width: 100px;
+    padding: 10px;
+    outline: none;
+    background: linear-gradient(#b80046, #cc0d5d);
+    color: #ffffff;
+    cursor: pointer;
+    float: right;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .input_box_button:hover {
+    transform: translate(0px, -1px);
+    box-shadow: 0 7px 8px rgba(79, 79, 121, 0.03);
+  }
+}
