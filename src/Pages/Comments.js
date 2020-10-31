@@ -27,6 +27,12 @@ const Comments = ({ name }) => {
     setNextId();
   };
 
+  const onKeyPress = (e) => {
+    if (e.key === "Enter") {
+      onSubmitComment();
+    }
+  };
+
   return (
     <div className={styles.comments_container}>
       <div className={styles.comments_list}>
@@ -37,6 +43,7 @@ const Comments = ({ name }) => {
         comment={comment}
         onChangeComment={onChangeComment}
         onSubmit={onSubmitComment}
+        onKeyPress={onKeyPress}
       />
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Navigation.module.scss";
+import Logo from "../Images/logo.png";
 
 const Navigaion = ({ name }) => {
   return (
@@ -8,7 +9,7 @@ const Navigaion = ({ name }) => {
       <div className={styles.nav_contents}>
         <div className={styles.content_front}>
           <div className={styles.logo}>
-            <div className={styles.logo_image}></div>
+            <img className={styles.logo_image} src={Logo} alt="logo_img" />
 
             <h1 className={styles.title}>JEEWON'S WORLD</h1>
           </div>

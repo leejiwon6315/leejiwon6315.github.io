@@ -18,6 +18,12 @@ const WelcomePage = ({ name, setName, onChangeName }) => {
     setName(name);
   };
 
+  const onKeyPress = (e) => {
+    if (e.key === "Enter") {
+      handleEnter(e);
+    }
+  };
+
   return (
     <div className={styles.start_container}>
       <div className={styles.user_start_container}>
@@ -42,6 +48,7 @@ const WelcomePage = ({ name, setName, onChangeName }) => {
           value={name}
           placeholder="Please Write Your Name"
           onChange={onChangeName}
+          onKeyPress={onKeyPress}
         />
         <button className={styles.user_enter_btn} onClick={handleEnter}>
           Enter The New World
