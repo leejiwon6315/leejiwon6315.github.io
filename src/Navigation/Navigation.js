@@ -9,8 +9,9 @@ const Navigaion = ({ name }) => {
       <div className={styles.nav_contents}>
         <div className={styles.content_front}>
           <div className={styles.logo}>
-            <img className={styles.logo_image} src={Logo} alt="logo_img" />
-
+            <Link to={`/HELLO/${name}`}>
+              <img className={styles.logo_image} src={Logo} alt="logo_img" />
+            </Link>
             <h1 className={styles.title}>JEEWON'S WORLD</h1>
           </div>
           <div className={styles.nav_items}>
