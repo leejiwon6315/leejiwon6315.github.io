@@ -1,4 +1,6 @@
 .profile_container {
+  width: 100vw;
+  height: calc(fit-content + 30px);
   position: relative;
   top: 100px;
   color: white;
@@ -13,7 +15,7 @@
   }
 
   .profile_top {
-    width: 100vw;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -50,7 +52,7 @@
   }
 
   .profile_bottom {
-    width: 100vw;
+    width: 100%;
     background-color: #222329;
     display: flex;
     flex-direction: column;
@@ -102,7 +104,7 @@
     position: absolute;
     left: 50%;
     top: 8%;
-    font-size: calc(30px + 2.5vw);
+    font-size: 100vw;
     font-weight: 800;
   }
 
@@ -262,6 +264,7 @@
 
   .profile_bottom_section {
     width: 460px;
+    min-width: fit-content;
 
     .profile_bottom_article {
       .profile_left_subtitle {
@@ -270,7 +273,7 @@
     }
 
     .profile_bottom_article ul li {
-      font-size: 14px;
+      font-size: calc(10px + 10%);
     }
   }
 }
@@ -281,7 +284,7 @@
   }
 
   .profile_bottom {
-    height: 800px;
+    height: 95vh;
 
     ul li {
       font-size: 18px;
