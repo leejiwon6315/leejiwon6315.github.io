@@ -1,7 +1,6 @@
 .profile_container {
   width: 100vw;
   height: fit-content;
-  padding-bottom: 30px;
   position: relative;
   top: 100px;
   color: white;
@@ -126,7 +125,7 @@
   }
 
   .profile_bottom_section {
-    width: 600px;
+    width: 500px;
 
     .profile_bottom_article {
       justify-content: space-between;
@@ -160,7 +159,7 @@
   }
 
   .profile_bottom_section {
-    width: 600px;
+    width: 500px;
 
     .profile_bottom_article {
       justify-content: space-between;
@@ -194,7 +193,7 @@
   }
 
   .profile_bottom_section {
-    width: 600px;
+    width: 500px;
 
     .profile_bottom_article {
       justify-content: space-between;
@@ -227,7 +226,7 @@
   }
 
   .profile_bottom_section {
-    width: 550px;
+    width: 500px;
 
     .profile_bottom_article {
       justify-content: space-between;
@@ -264,8 +263,8 @@
   }
 
   .profile_bottom_section {
-    width: 460px;
-    min-width: fit-content;
+    width: fit-content;
+    padding-right: 20px;
 
     .profile_bottom_article {
       .profile_left_subtitle {
@@ -274,11 +273,10 @@
     }
 
     .profile_bottom_article ul li {
-      font-size: calc(10px + 10%);
+      font-size: calc(2px + 2.5vw);
     }
   }
 }
-
 @media screen and (max-height: 899px) {
   .profile_top {
     height: 95vh;

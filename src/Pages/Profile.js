@@ -74,6 +74,8 @@ const Profile = ({ name }) => {
                 <br />
                 <br />
                 <br />
+                <br />
+                <br />
               </li>
               <li>E-mail</li>
               <li>Github</li>
@@ -93,27 +95,31 @@ const Profile = ({ name }) => {
               <li>Seoul, Republic of Korea</li>
               <li>
                 2015.03 ~<br />
-                Major in Global-Media, IT college of Soongsil
+                Major in Global-Media, IT college
                 <br />
-                University
+                of Soongsil University
                 <br />
                 <br />
                 2017.01 ~ 2018.10
                 <br />
-                Served in the Republic of Korea Special Assault
+                Served in the Republic of Korea
                 <br />
-                Commando
+                Special Assault Commando
                 <br />
                 <br />
                 2019.03 ~ 2020.01
                 <br />
                 Working Holiday in Osaka, Japan
                 <br />
-                Main Designer of S.Y.Company in Osaka, Japan
+                Main Designer of S.Y.Company
+                <br />
+                in Osaka, Japan
                 <br />
                 <br />
                 2020.02 ~ <br />
-                Operating Hand-made Accessory Brand A.ELO
+                Operating Hand-made Accessory
+                <br />
+                Brand A.ELO
                 <br />
                 <br />
                 2020.07 ~ <br />
