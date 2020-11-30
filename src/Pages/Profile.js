@@ -44,95 +44,88 @@ const Profile = ({ name }) => {
             Personal Profile
           </span>
           <div className={styles.profile_bottom_article}>
-            <ul className={styles.profile_left_subtitle}>
-              <li>Name</li>
-              <li>Age</li>
-              <li>Position</li>
-              <li>
-                Tech Stack
-                <br />
-                <br />
-                <br />
-              </li>
-              <li>Location</li>
-              <li>
-                Career
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-              </li>
-              <li>E-mail</li>
-              <li>Github</li>
-            </ul>
+            <table className={styles.profile_table}>
+              <tbody>
+                <tr>
+                  <th className={styles.t_left_part}>Name</th>
+                  <td className={styles.t_right_part}>JEEWON LEE</td>
+                </tr>
 
-            <ul className={styles.profile_right_subtitle}>
-              <li>JEEWON LEE</li>
-              <li>24</li>
-              <li>Web Front-end</li>
-              <li>
-                HTML, CSS, Javascript
-                <br />
-                React js
-                <br />
-                Photoshop, Illustrator, Figma
-              </li>
-              <li>Seoul, Republic of Korea</li>
-              <li>
-                2015.03 ~<br />
-                Major in Global-Media, IT college
-                <br />
-                of Soongsil University
-                <br />
-                <br />
-                2017.01 ~ 2018.10
-                <br />
-                Served in the Republic of Korea
-                <br />
-                Special Assault Commando
-                <br />
-                <br />
-                2019.03 ~ 2020.01
-                <br />
-                Working Holiday in Osaka, Japan
-                <br />
-                Main Designer of S.Y.Company
-                <br />
-                in Osaka, Japan
-                <br />
-                <br />
-                2020.02 ~ <br />
-                Operating Hand-made Accessory
-                <br />
-                Brand A.ELO
-                <br />
-                <br />
-                2020.07 ~ <br />
-                Beginning to study Web Front-end
-                <br />
-              </li>
-              <li>leejiwon6315@naver.com</li>
-              <li>
-                <a href="https://github.com/leejiwon6315">
-                  github.com/leejiwon6315
-                </a>
-              </li>
-            </ul>
+                <tr>
+                  <th className={styles.t_left_part}>Age</th>
+                  <td className={styles.t_right_part}>24</td>
+                </tr>
+
+                <tr>
+                  <th className={styles.t_left_part}>Position</th>
+                  <td className={styles.t_right_part}>Web Front-end</td>
+                </tr>
+
+                <tr>
+                  <th className={styles.t_left_part}>Tech Stack</th>
+                  <td className={styles.t_right_part}>
+                    HTML, CSS, Javascript
+                    <br />
+                    React js
+                    <br />
+                    Photoshop, Illustrator, Figma
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className={styles.t_left_part}>Location</th>
+                  <td className={styles.t_right_part}>
+                    Seoul, Republic of Korea
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className={styles.t_left_part}>Career</th>
+                  <td className={styles.t_right_part}>
+                    2015.03 ~<br />
+                    Major in Global-Media, IT college of Soongsil University
+                    <br />
+                    <br />
+                    2017.01 ~ 2018.10
+                    <br />
+                    Served in the Republic of Korea Special Assault Commando
+                    <br />
+                    <br />
+                    2019.03 ~ 2020.01
+                    <br />
+                    Working Holiday in Osaka, Japan
+                    <br />
+                    Main Designer of S.Y.Company in Osaka, Japan
+                    <br />
+                    <br />
+                    2020.02 ~ <br />
+                    Operating Hand-made Accessory
+                    <br />
+                    Brand A.ELO
+                    <br />
+                    <br />
+                    2020.07 ~ <br />
+                    Beginning to study Web Front-end
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className={styles.t_left_part}>E-mail</th>
+                  <td className={styles.t_right_part}>
+                    leejiwon6315@naver.com
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className={styles.t_left_part}>Github</th>
+                  <td className={styles.t_right_part}>
+                    <a href="https://github.com/leejiwon6315">
+                      github.com/leejiwon6315
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
